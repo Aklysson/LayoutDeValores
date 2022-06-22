@@ -5,8 +5,10 @@ export function Dashboard(){
     return(
         <Container>
      <Summary />
-     <Summary />
-     <Summary />
+     <Summary title="Básico" 
+        preço="29,90"/>
+     <Summary title="Profissional"
+     preço="59,90"/>
         </Container>
     )
 }
