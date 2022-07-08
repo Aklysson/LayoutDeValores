@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background-color: #cbd0d3;
+    background-color: var(--page-background);
     font-family: sans-serif;
   }
 

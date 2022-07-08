@@ -6,7 +6,7 @@ width: 19rem;
 display: flex;
 flex-direction: column;
 gap: 1rem;
-background-color: #ffffff;
+background-color: var(--page-background);
 border-radius: 5%;
 padding: 1rem;
 height: 15rem;
@@ -14,9 +14,8 @@ height: 15rem;
 :hover{
     background: linear-gradient(var(--yellow), var(--page-background));
     cursor: pointer;
-    height:16rem;
-    width: 20rem;
-    margin-top: -1rem;}
+    transform: scale(1.1);
+    ;}
 
 h4{
     margin-bottom: 1rem;

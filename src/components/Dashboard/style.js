@@ -6,4 +6,5 @@ export const Container = styled.div`
     margin-top: -5rem;
     gap: 1.5rem;
     flex-wrap: wrap;
+    
 `
